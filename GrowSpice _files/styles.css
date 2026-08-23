@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+	background: #72E3BD;
+}
+
+.sidebar {
+    width: 20%; /* Minimal width */
+	height: 100%;
+    background: #f4a261;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+
+.toggle-btn, .close-btn {
+    background: #e76f51;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background: #f4a261;
+    padding: 10px;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu.active {
+    display: flex;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px; /* Same position as the toggle button */
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.content {
+    padding: 20px;
+}
+
+.spice-container {
+	width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: left;
+	float: right;
+}
+
+.spice-item {
+    width: 200px;
+    text-align: center;
+}
+
+.spice-item img {
+    width: 150px;
+    height: auto;
+}
+h1 {
+    margin: 5dddpx 100px;
+	text-align: center;
+	color: red;
+}
+h2 {
+	color: blue;
+    margin: 10px 0;
+}
+
+h3 {
+	color: green;
+    margin: 10px 0;
+}
+h4 {
+	color: blue;
+    margin: 10px 0;
+}
+p {
+    font-size: 14px;
+    color: black;
+}
+
+.left {
+        width: 30%;
+        height: 100vh;
+        float: left;
+        background-color: lightgray;
+        text-align: center;
+    }
+.right {
+        width: 70%;
+        height: 100vh;
+        float: right;
+        background-color: lightpink;
+        text-align: center;
+    }
